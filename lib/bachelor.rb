@@ -60,6 +60,7 @@ def get_average_age_for_season(data, season)
     ages << age
   end
   sum_of_ages = ages.sum
-  average_age = sum_of_ages / ages.
-  sum.round
+  average_age = sum_of_ages / ages.size
+  average_age.round
 end
+
