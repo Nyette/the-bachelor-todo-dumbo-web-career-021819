@@ -41,6 +41,9 @@ end
 
 def get_occupation(data, hometown)
   # returns the occupation of the first contestant who hails from that hometown
+  data.each do |season, array|
+    array.each do |hash|
+      
   
 end
 
