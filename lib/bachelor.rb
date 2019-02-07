@@ -41,10 +41,15 @@ end
 
 def get_occupation(data, hometown)
   # returns the occupation of the first contestant who hails from that hometown
+  occupations = []
   data.each do |season, array|
     array.each do |hash|
-      
-  
+      if hash["hometown"] == hometown
+        
+      end
+    end    
+  end
+  contestants[0]
 end
 
 def get_average_age_for_season(data, season)
